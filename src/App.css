@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* {
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;    
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {  
+  max-width: 50%;
+}
+.my-list {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #f5efef;
+  float: left;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 2px 3px 0px #e4d8d8;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-list h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #ccc4c4;
+}
+h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #706d6d;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.my-list span {
+  font-weight: bold;
+}
+
+/* .my-list span:last-child {
+  float: right;
+} */
+
+.my-list .offer {
+  width: 100%;
+  float: left;
+  margin: 5px 0;
+  border-top: 1px solid #ccc4c4;
+  margin-top: 5px;
+  padding-top: 5px;
+  color: #afadad;
+}
+
+.cart-parent{
+  padding: 10px;
+  float: left;
+}
+.cart-item{
+  background: #d3d3d3;
+  margin: 4px;
+  padding: 15px;
+}
+.cart-item span img{
+  max-width: 25%;
+  max-height: 25%;
+  float: right;
+}
+.item-text{
+  float: left;
+}
+.remove-from-cart-button {
+  background-color: #f44336;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 0px 0px;
+} /* Blue */
+.clear {
+  clear: both;
+}
+
+.details-button {
+  background-color: #008CBA;
+} /* Blue */
+.add-to-cart-button {
+  background-color: #4CAF50;
+} /* Blue */
